@@ -1,0 +1,11 @@
+<!--
+  IL2CPP strips every type it cannot see a reference to, and it cannot see one
+  here: the SDK's classes are reached through AndroidJavaObject by name, from
+  string literals. Without this file the game builds, runs in the editor, and
+  then fails only in a release build with an error that names a class the
+  publisher has never heard of. It is the most expensive support ticket a Unity
+  SDK can generate, so the file ships from the first version.
+-->
+<linker>
+  <assembly fullname="Sanbuk.Runtime" preserve="all" />
+</linker>

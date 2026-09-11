@@ -1,0 +1,28 @@
+{
+  "name": "ir.sanbuk.sdk",
+  "version": "0.1.0",
+  "displayName": "Sanbuk Ads",
+  "description": "Sanbuk publisher SDK — show Sanbuk ads inside your Unity game. Android only in this release.",
+  "unity": "2021.3",
+  "documentationUrl": "https://github.com/sanbuk-dev/sanbuk-unity",
+  "changelogUrl": "https://github.com/sanbuk-dev/sanbuk-unity/blob/main/CHANGELOG.md",
+  "licensesUrl": "https://github.com/sanbuk-dev/sanbuk-unity/blob/main/LICENSE.md",
+  "keywords": [
+    "ads",
+    "advertising",
+    "monetization",
+    "sanbuk",
+    "cpa"
+  ],
+  "author": {
+    "name": "Sanbuk",
+    "url": "https://sanbuk.com"
+  },
+  "samples": [
+    {
+      "displayName": "Basic integration",
+      "description": "Banner, an in-scene ad drawn with your own uGUI, and a rewarded ad.",
+      "path": "Samples~/BasicIntegration"
+    }
+  ]
+}
